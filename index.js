@@ -59,8 +59,16 @@ const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
-  
+  discount: function(discountType) {
+    if (discountType === "teacher" || discountType === "student") {
+      return this.price * .75
+    } else {
+      return this.price * .9
+    }
+  }
 }
+
+console.log(burger.discount("public"))
 
 
 
