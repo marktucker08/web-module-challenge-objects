@@ -37,6 +37,9 @@ Test your createMenuItems function by doing the following:
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
 
+console.log(createMenuItem("Pizza", 5, "Lunch"));
+console.log(createMenuItem("Nachos", 8, "Snack"));
+console.log(createMenuItem("Pancakes", 7,"Breakfast"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
