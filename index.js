@@ -16,10 +16,15 @@ The function should:
 */
 
 
-function createMenuItem(/*Your code here*/){
-  /*Your code here*/
+function createMenuItem(name, price, category){
+  const newItem = {}
+  newItem.name = name;
+  newItem.price = price;
+  newItem.category = category;
+  return newItem;
 }
 
+console.log(createMenuItem("Tacos", 8, "Lunch"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b (not auto-tested): 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
